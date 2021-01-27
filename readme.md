@@ -12,7 +12,7 @@ A simple javascript plugin to make tilt effect.
     <script src="SimpleTilt.js"></script> <!-- Load SimpleTilt.js -->
     <!-- Active SimpleTilt in your elements -->
     <script> 
-      tilter('.tilter', {
+      tilter('.your-class', {
         perspective: 300, // Default 400
         maxTilt: 4, // Default 4
         mantain: false, // Default false
