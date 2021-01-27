@@ -1,7 +1,7 @@
 # SimpleTilt.js
 A simple javascript plugin to make tilt effect.
 
-![SimpleTilt.js demo gif](https://github.com/luankohl/SimpleTilt/blob/master/simpletilt.gif)
+![SimpleTilt.js demo gif](https://raw.githubusercontent.com/luankohl/SimpleTilt/master/simpletilt.gif)
 
 ### Usage
 
