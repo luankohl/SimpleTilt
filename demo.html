@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  
+  <title>SimpleTilt.js</title>
+
+  <style>
+    body {
+      min-height: 100vh;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .tilter {
+      max-width: 600px;
+      position: relative;
+      background: linear-gradient(45deg, #2980b9, #2c3e50);
+      min-width: 400px;
+      min-height: 400px;
+    }
+
+    .tilter h2 {
+      position: absolute;
+      font-size: 3em;
+      color: #fff;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      max-height: 60px;
+      text-align: center;
+    }
+
+    .tilter img {
+      max-width: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="tilter">
+    <h2 class="fx3d">SimpleTilt.js</h2>
+  </div>
+  <script src="./src/SimpleTilt.js"></script>
+  <script>
+    window.addEventListener('load', () => {
+      tilter('.tilter', {
+        perspective: 300,
+        maxTilt: 4,
+        mantain: false,
+        fx3d: true,
+        fxDistance: 70,
+      });
+    });
+  </script>
+</body>
+</html>
