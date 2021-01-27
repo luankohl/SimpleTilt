@@ -27,7 +27,7 @@ A simple javascript plugin to make tilt effect.
 ```js
 perspective:    400, // Transform perspective, the lower the more extreme the tilt gets.
 maxTilt:        4, // Size of tilt.
-mantain:        false, // Mantin tilt after mouse leave.
+mantain:        false, // Mantain tilt after mouse leave.
 fx3d:           1, // Tilt children elements
 fxDistance:     40, // Distance of children elements on the Z axis - Use transform: translateZ(40);
 ```
