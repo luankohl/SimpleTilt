@@ -30,8 +30,8 @@ function tilter(element, configs) {
     });
 
     item.addEventListener('mousemove', e => {
-      let left = (e.clientX - item.offsetLeft) - (item.offsetWidth / 2);
-      let top = (e.clientY - item.offsetTop) - (item.offsetHeight / 2);
+      let left = (e.clientX - item.getBoundingClientRect().left) - (item.offsetWidth / 2);
+      let top = (e.clientY - item.getBoundingClientRect().top) - (item.offsetHeight / 2);
 
       let xNatural = (((left / item.offsetWidth) * 2) * 100).toFixed(0)
       let xPercent = xNatural - xNatural * 2;
