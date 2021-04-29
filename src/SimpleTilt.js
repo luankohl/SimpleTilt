@@ -55,7 +55,3 @@ function tilter(element, configs) {
     }
   }
 }
-
-module.exports = {
-  tilter
-}
