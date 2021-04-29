@@ -9,10 +9,7 @@ A simple javascript plugin to do tilt effect.
 ```html
 <!DOCTYPE html>
 <body>
-  <div class="your-class">
-    <!-- If fx3d option is enabled, you need to insert fx3d class in children to works correctly -->
-    <div class="children fx3d"></div>
-  </div>
+  <div class="your-class"></div>
   <!-- Your Tilt element -->
   <script src="SimpleTilt.js"></script>
   <!-- Load SimpleTilt.js -->
